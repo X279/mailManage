@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sendMailActivity">
+
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="73dp"
+        android:gravity="center"
+        android:text="邮箱" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="73dp"
+        android:gravity="center"
+        android:text="主题"/>
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <TextView
+        android:layout_width="155dp"
+        android:layout_height="73dp"
+        android:gravity="center"
+        android:text="发件信息："/>
+
+    <EditText
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:text="发送"/>
+</LinearLayout>
